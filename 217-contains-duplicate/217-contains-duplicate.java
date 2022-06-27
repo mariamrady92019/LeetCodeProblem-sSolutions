@@ -1,6 +1,18 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         
+        
+// first sort --> then compare two elements if equals then return
+//          int i;
+//         Arrays.sort(nums);
+//         for(i=0;i<nums.length-1;i++)
+//         {
+//             if(nums[i]==nums[i+1])
+//             return true;
+//         }
+//         return false; 
+        
+        //-------------------
 
              Map<Integer, Integer> hm
             = new HashMap<Integer, Integer>();
